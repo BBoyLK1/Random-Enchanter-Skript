@@ -35,8 +35,8 @@ All items crafted by the player will receive **one random enchantment** (max lev
 
 - ⚡ **[Skript](https://github.com/SkriptLang/Skript)** v2.12.2+  
 - 🟢 **Minecraft server 1.12+**  
-- Optional: **Skript addons** for custom enchantments (for Mace enchants like Density, Breach, Wind Burst):  
-  - `SkEnchants` or similar addons supporting 1.21+ custom enchantments  
+- ✨ **UberEnchant Plugin** for get 255 levels or not work
+- Optional: other Skript addons for extra enchantment compatibility  
 
 Make sure all dependencies are installed on your server for proper functionality.
 
@@ -44,10 +44,11 @@ Make sure all dependencies are installed on your server for proper functionality
 
 ## 📥 Installation
 
-1. Place this Skript file in your **plugins/Skript/scripts/** folder.  
-2. Reload Skript in-game using:  
+1. Place this Skript file (e.g., `random_enchants.sk`) in your **plugins/Skript/scripts/** folder.  
+2. Ensure **UberEnchant** is installed and running on your server.  
+3. Reload Skript in-game using:  
    ```/sk reload random_enchants```  
-3. Craft items as normal; they will automatically receive a **random enchantment** in your inventory.  
+4. Craft items as normal; they will automatically receive a **random enchantment** in your inventory.  
 
 ---
 
@@ -63,7 +64,7 @@ Make sure all dependencies are installed on your server for proper functionality
 
 - Enchant levels are currently set to **255** for maximum effect ⚡  
 - Compatible with Minecraft **1.12+** and Skript **v2.12.2**  
-- Mace enchantments use **1.21+ custom enchantments** like Density, Breach, Wind Burst
+- Custom Mace enchantments require **UberEnchant** plugin  
 
 ---
 
