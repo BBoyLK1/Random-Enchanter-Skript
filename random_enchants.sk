@@ -1,0 +1,844 @@
+# ------------------------------------------------------------------------
+# Auto Enchant on Craft Skript by NOTzBB
+# Version 1.0.0 (Bugs Fixed)
+# Discord - notzbb         |   Github - BBoyLK1
+# ------------------------------------------------------------------------
+# How to you instrall
+# 1. Download Skript Plugin
+# 2. Open your server plugins folder and go to "Skript"
+# 3. Go to "Scripts" folder and create new file with any name
+# 4. Paste this code into it and save
+# 5. Go to minecraft server and run /sk reload <file_name.sk>
+# -------------------------------------------------------------------------
+on craft of wooden sword:
+    wait 1 tick  # ensure item is in inventory
+    loop all items in player's inventory:
+        if loop-item is wooden sword:
+            set {_enchants::*} to "sharpness" or "unbreaking" or "fire_aspect" or "mending" or "knockback"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "sharpness":
+                enchant loop-item with sharpness 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fire_aspect":
+                enchant loop-item with fire aspect 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+            if {_random} is "knockback":
+                enchant loop-item with knockback 255
+on craft of stone sword:
+    wait 1 tick  # ensure item is in inventory
+    loop all items in player's inventory:
+        if loop-item is stone sword:
+            set {_enchants::*} to "sharpness" or "unbreaking" or "fire_aspect" or "mending" or "knockback"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "sharpness":
+                enchant loop-item with sharpness 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fire_aspect":
+                enchant loop-item with fire aspect 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+            if {_random} is "knockback":
+                enchant loop-item with knockback 255
+on craft of iron sword:
+    wait 1 tick  # ensure item is in inventory
+    loop all items in player's inventory:
+        if loop-item is iron sword:
+            set {_enchants::*} to "sharpness" or "unbreaking" or "fire_aspect" or "mending" or "knockback"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "sharpness":
+                enchant loop-item with sharpness 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fire_aspect":
+                enchant loop-item with fire aspect 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+            if {_random} is "knockback":
+                enchant loop-item with knockback 255
+on craft of diamond sword:
+    wait 1 tick  # ensure item is in inventory
+    loop all items in player's inventory:
+        if loop-item is diamond sword:
+            set {_enchants::*} to "sharpness" or "unbreaking" or "fire_aspect" or "mending" or "knockback"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "sharpness":
+                enchant loop-item with sharpness 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fire_aspect":
+                enchant loop-item with fire aspect 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+            if {_random} is "knockback":
+                enchant loop-item with knockback 255
+on craft of golden sword:
+    wait 1 tick  # ensure item is in inventory
+    loop all items in player's inventory:
+        if loop-item is golden sword:
+            set {_enchants::*} to "sharpness" or "unbreaking" or "fire_aspect" or "mending" or "knockback"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "sharpness":
+                enchant loop-item with sharpness 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fire_aspect":
+                enchant loop-item with fire aspect 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+            if {_random} is "knockback":
+                enchant loop-item with knockback 255
+on craft of wooden axe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is wooden axe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of stone axe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is stone axe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of iron axe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is iron axe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of golden axe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is golden axe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of diamond axe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is diamond axe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of wooden shovel:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is wooden shovel:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of stone shovel:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is stone shovel:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of iron shovel:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is iron shovel:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of golden shovel:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is golden shovel:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255                                
+on craft of diamond shovel:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is diamond shovel:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of wooden pickaxe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is wooden pickaxe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of stone pickaxe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is stone pickaxe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of iron pickaxe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is iron pickaxe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of diamond pickaxe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is diamond pickaxe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of golden pickaxe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is golden pickaxe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of wooden hoe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is wooden hoe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of stone hoe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is stone hoe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of iron hoe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is iron hoe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of golden hoe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is golden hoe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of diamond hoe:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is diamond hoe:
+            set {_enchants::*} to "efficiency" or "unbreaking" or "fortune" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of leather helmet:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is leather helmet:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of leather chestplate:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is leather chestplate:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of leather leggings:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is leather leggings:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of leather boots:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is leather boots:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of chainmail helmet:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is chainmail helmet:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of chainmail chestplate:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is chainmail chestplate:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of chainmail leggings:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is chainmail leggings:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of chainmail boots:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is chainmail boots:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of iron helmet:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is iron helmet:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of iron chestplate:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is iron chestplate:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of iron leggings:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is iron leggings:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of iron boots:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is iron boots:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of golden helmet:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is golden helmet:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of golden chestplate:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is golden chestplate:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of golden leggings:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is golden leggings:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of golden boots:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is golden boots:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of diamond helmet:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is diamond helmet:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of diamond chestplate:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is diamond chestplate:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of diamond leggings:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is diamond leggings:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+
+on craft of diamond boots:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is diamond boots:
+            set {_enchants::*} to "protection" or "unbreaking" or "thorns" or "fire_protection" or "blast_protection" or "projectile_protection" or "mending"
+            set {_random} to random element out of {_enchants::*}
+            if {_random} is "protection":
+                enchant loop-item with protection 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "thorns":
+                enchant loop-item with thorns 255
+            if {_random} is "fire_protection":
+                enchant loop-item with fire protection 255
+            if {_random} is "blast_protection":
+                enchant loop-item with blast protection 255
+            if {_random} is "projectile_protection":
+                enchant loop-item with projectile protection 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of mace:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is mace:
+            set {_enchants::*} to "density" or "breach" or "wind_burst" or "unbreaking" or "mending"
+            set {_random} to random element out of {_enchants::*}
+
+            if {_random} is "density":
+                enchant loop-item with density 255
+            if {_random} is "breach":
+                enchant loop-item with breach 255
+            if {_random} is "wind_burst":
+                enchant loop-item with wind burst 255
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+on craft of shears:
+    wait 1 tick
+    loop all items in player's inventory:
+        if loop-item is shears:
+            set {_enchants::*} to "unbreaking" or "mending" or "efficiency" or "fortune"
+            set {_random} to random element out of {_enchants::*}
+            
+            if {_random} is "unbreaking":
+                enchant loop-item with unbreaking 255
+            if {_random} is "mending":
+                enchant loop-item with mending 255
+            if {_random} is "efficiency":
+                enchant loop-item with efficiency 255
+            if {_random} is "fortune":
+                enchant loop-item with fortune 255
